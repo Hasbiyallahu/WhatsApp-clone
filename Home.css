@@ -1,0 +1,1064 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: auto;
+}
+
+#prenav {
+    width: 100%;
+    height: auto;
+    padding-left: 2em;
+}
+
+#metalogo {
+    width: 7em;
+    height: 5em;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(24, 92, 24);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2em;
+    padding-top: 4em;
+}
+
+#whatsapplogo {
+    width: 16%;
+    margin-top: -2em;
+    color: white;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 70%;
+    margin-right: -15em;
+    margin-left: 0em;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 70%;
+    margin-right: 4em;
+    margin-top: -1em;
+    margin-left: -7em;
+}
+
+#lastnavdiv button {
+    width: 20%;
+    margin-top: -1em;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu button {
+    background-color: #43dc66;
+    font-size: 1em;
+    height: 3em;
+    border: #43dc66;
+    align-items: flex-start;
+    border-radius: 30px;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    margin-top: -2em;
+    transition: all;
+    transition-duration: 0.4s;
+
+}
+
+#menu button:hover {
+    opacity: 0.6;
+}
+
+#togglebtn {
+    display: none;
+}
+
+#fontawesome {
+    width: 12%;
+    color: #43dc66;
+    background-color: rgb(24, 92, 24);
+    margin-top: -1.5em;
+    border: none;
+    font-size: 1.2em;
+    transition: all;
+    transition-duration: 0.4s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#fontawesome:hover {
+    opacity: 0.6;
+}
+
+#globebtn {
+    margin-right: 0.2em;
+    font-size: 1em;
+    display: inline;
+}
+
+#downbtn {
+    color: white;
+    font-size: 0.8em;
+    margin-left: 0.4em;
+    display: inline;
+}
+
+#advert {
+    background-color: lavender;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+#advert a:hover {
+    opacity: 0.6;
+}
+
+.transformbiz {
+    width: 50%;
+}
+
+#productchoice {
+    width: 100%;
+    background-color: rgb(24, 92, 24);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#biztransform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5em;
+}
+
+#biztransform h1 {
+    color: #43dc66;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.7em;
+}
+
+#biztransform p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#biztransform button {
+    background-color: #43dc66;
+    font-size: 1em;
+    height: 4em;
+    border-radius: 30px;
+    width: 15em;
+    margin-top: 2em;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+#biztransform button:hover {
+    opacity: 0.6;
+}
+
+#productchoice2 {
+    padding: 5em;
+}
+
+#productchoice2 img {
+    width: 30em;
+    height: 30em;
+    align-self: center;
+}
+
+#lg2sm {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8em;
+}
+
+#lg2sm h6 {
+    opacity: 0.8;
+    font-size: large;
+}
+
+#lg2sm p {
+    font-size: 3em;
+    color: black;
+    font-weight: 400;
+    align-self: center;
+    width: 80%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#lg2sm span {
+    text-decoration-line: underline;
+    text-decoration-color: #43dc66;
+    margin-bottom: 1em;
+}
+
+#bizsupport {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 6em;
+    margin-bottom: 8em;
+}
+
+.support {
+    width: 40%;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em;
+    border-radius: 10px;
+    box-shadow: 0 0.1em 0.9em -0.4em black;
+    padding-top: 6em;
+}
+
+.fa-solid {
+    color: #43dc66;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.support h3 {
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.support p {
+    opacity: 0.9;
+    font-size: 1.1em;
+}
+
+.arrowtext {
+    color: black;
+    font-size: 0.9;
+    font-weight: 400;
+    margin-left: 1.1em;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#bizsupport span {
+    font-size: 0.4em;
+    opacity: 0.6;
+}
+
+#collapse {
+    width: 100%;
+    height: 100vh;
+    background-color: #f1e9de;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dropdown {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dropdown img {
+    width: 70%;
+    height: 60%;
+    margin-top: 7em;
+    margin-left: 3em;
+    border-radius: 15px;
+}
+
+#dropdown2:nth-of-type(2) {
+    margin-left: -5em;
+}
+
+.dropdown h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+
+#accordionExample {
+    width: 85%;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    margin-bottom: 5em;
+}
+
+.accordion-body {
+    background-color: #f1e9de;
+}
+
+.accordion-button {
+    background-color: #f1e9de;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#successstories {
+    width: 100%;
+    height: auto;
+    margin-left: 8em;
+    margin-top: 8em;
+    margin-bottom: 4em;
+}
+
+#successstories h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    opacity: 0.8;
+}
+
+#successstories h1 {
+    width: 20em;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+
+#successstories span {
+    font-size: 0.4em;
+    opacity: 0.6;
+}
+
+#carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.carouseldiv {
+    background-color: #d6fcdf;
+    margin-left: 3em;
+    padding: 3em;
+    border-radius: 25px;
+    margin-bottom: 3em;
+}
+
+#carousel img {
+    border-radius: 25px;
+    margin-top: 2em;
+    width: 40em;
+    height: 25em;
+}
+
+#carousel h1 {
+    font-size: 3em;
+}
+
+#carousel p {
+    font-weight: bolder;
+}
+
+#learnmore {
+    width: 100%;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: 30em;
+}
+
+#learnmore div {
+    background-color: green;
+    width: 80%;
+    height: 80vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#learnmore h2 {
+    text-align: center;
+    color: #43dc66;
+    font-size: 3.5em;
+}
+
+#learnmore p {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+#learnmore button {
+    background-color: #43dc66;
+    width: 16%;
+    height: 3.5;
+    font-size: 1.2em;
+    align-self: center;
+    border: #43dc66;
+    padding: 1em;
+    border-radius: 40px;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+#learnmore button:hover {
+    opacity: 0.8;
+}
+
+main {
+    margin-bottom: 20em;
+}
+
+footer {
+    width: 100%;
+    height: 25vh;
+    background-color: #43dc66;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#footerlogo {
+    width: 16%;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 55%;
+    margin-top: 4em;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 4ms;
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
+
+span {
+    margin-top: 4em;
+}
+
+/*
+/*
+/*RESPONSIVENESS*/
+/*
+/*1200px screen sizes and below*/
+@media (max-width: 1200px) {
+    #togglebtn {
+        display: block;
+        font-size: 2em;
+        color: white;
+        margin-top: -0.2em;
+        margin-left: 0.5em;
+        float: right;
+    }
+
+    #advert {
+        margin-top: 3em;
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+
+    #fontawesome {
+        margin-top: -3em;
+    }
+
+    #whatsapplogo {
+        width: 20%;
+        margin-top: -4em;
+    }
+
+    main {
+        margin-top: -4rem;
+    }
+
+    #productchoice img {
+        width: 25em;
+        height: 25em;
+    }
+
+    #biztransform h1 {
+        font-size: 3em;
+    }
+
+    #biztransform p {
+        margin-top: 0em;
+        margin-bottom: 0em;
+        font-size: 1em;
+    }
+
+    #lg2sm {
+        margin-top: 5em;
+    }
+
+    #lg2sm p {
+        font-size: 3em;
+    }
+
+    .support {
+        padding-top: 3em;
+    }
+
+    #arrow1 #arrow2 {
+        font-size: 1.5em;
+    }
+
+    .dropdown img {
+        margin-right: 6em;
+    }
+
+    #successstories h1 {
+        width: 20em;
+    }
+
+    #learnmore {
+        margin-bottom: 30em;
+        margin-top: 0em;
+    }
+
+    #learnmore button {
+        height: 3.5em;
+        border: #43dc66;
+        width: 20%;
+    }
+}
+
+/*
+/*1000px screen sizes and below*/
+@media (max-width: 1000px) {
+    #whatsapplogo {
+        width: 30%;
+    }
+
+    #productchoice {
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .transformbiz {
+        width: 100%;
+    }
+
+    #biztransform p {
+        margin-top: 2em;
+        margin-bottom: 1.5em;
+        font-size: 1.2em;
+    }
+
+    #lg2sm p {
+        font-size: 2.5em;
+    }
+
+    #bizsupport {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .support {
+        width: 90%;
+        margin-bottom: 2em;
+    }
+
+    #collapse {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 3em;
+        margin-top: -6em;
+    }
+
+    #dropdown {
+        width: 100%;
+    }
+
+    #dropdown img {
+        width: 90%;
+    }
+
+    #dropdown2 {
+        width: 100%;
+        margin-top: 1em;
+        padding-left: 3em;
+    }
+
+    #accordionExample {
+        margin-top: 4em;
+    }
+
+    #successstories h1 {
+        width: 90%;
+        margin-left: -1em;
+
+    }
+
+    #successstories h4 {
+        margin-left: -2em;
+    }
+
+    #successstories span {
+        margin-left: -3em;
+    }
+
+    #learnmore div {
+        width: 90%;
+        padding: 3em;
+    }
+
+    #learnmore button {
+        width: 40%;
+        height: 4em;
+        opacity: 0.7;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        align-content: space-around;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    footer ul {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-evenly;
+        height: auto;
+        margin-left: -30em;
+    }
+
+    footer li {
+        margin-bottom: 1em;
+
+    }
+
+    #footerlogo {
+        margin-left: -20em;
+        width: 25%;
+    }
+
+    footer span {
+        margin-left: -17em;
+        font-size: 1.2em;
+    }
+}
+
+/*700px screen sizes and below*/
+@media (max-width: 700px) {
+    #productchoice2 {
+        margin-top: -4em;
+    }
+
+    #lg2sm p {
+        font-size: 2em;
+    }
+
+    .support {
+        width: 60%;
+    }
+
+    #dropdown {
+        margin-left: 1em;
+    }
+
+    #dropdown2 h1 {
+        width: 100%;
+        align-items: start;
+
+    }
+
+    #successstories {
+        text-align: left;
+        margin-left: 3.5em;
+    }
+
+    #carousel img {
+        width: 30em;
+    }
+
+    #learnmore div {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    #learnmore h2 {
+        margin-top: em;
+        font-size: 3em;
+    }
+
+    #learnmore p {
+        font-size: 1.5em;
+    }
+
+    #learnmore button {
+        width: 40%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    footer ul {
+        margin-left: -20em;
+    }
+
+    footer span {
+        margin-left: -10em;
+    }
+}
+
+/*500px screen sizes and below*/
+@media (max-width:500px) {
+    #biztransform {
+        width: 100%;
+        margin-top: -3em;
+        margin-left: -3em;
+    }
+
+    #biztransform h1 {
+        font-size: 2em;
+    }
+
+    #biztransform p {
+        margin-top: 0.3em;
+    }
+
+    #biztransform button {
+        margin-top: 1em;
+    }
+
+    #productchoice2 {
+        padding: 2.5em;
+    }
+
+    #lg2sm h6 {
+        font-size: 1em;
+    }
+
+    #lg2sm p {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    #bizsupport {
+        margin-top: 0.3em;
+    }
+
+    #bizsupport h3 {
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+
+    #bizsupport p {
+        font-size: 1em;
+    }
+
+    #accordionExample {
+        margin-left: 2em;
+    }
+
+    #learnmore h2 {
+        font-size: 2.5em;
+    }
+
+    #learnmore p {
+        font-size: 1em;
+    }
+
+    #learnmore button {
+        width: 10em;
+    }
+}
+
+/*450px screen sizes and below*/
+@media (max-width:450px) {
+    #whatsapplogo {
+        width: 10em;
+    }
+
+    #advert {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+    #biztransform button {
+        margin-top: -1.5em;
+    }
+
+    #productchoice2 img {
+        width: 20em;
+        height: 20em;
+    }
+
+    #dropdown2 h1 {
+        font-size: 2em;
+    }
+
+    #successstories h1 {
+        font-size: 2em;
+        width: 90%;
+    }
+
+    #successstories h4 {
+        padding-left: 0.6em;
+    }
+
+    #carousel img {
+        width: 20em;
+    }
+
+    #footerlogo {
+        width: 16em;
+        padding-left: 10em;
+    }
+
+    footer ul {
+        margin-left: -10em;
+    }
+
+    footer span {
+        margin-left: -3em;
+    }
+}
+
+/*400 screen sizes and below*/
+@media (max-width:400px) {
+    #biztransform p {
+        margin-top: 0em;
+    }
+
+    #biztransform button {
+        margin-top: -2em;
+    }
+
+    #productchoice2 img {
+        width: 18em;
+        height: 18em;
+    }
+
+    #lg2sm {
+        margin-top: 1.5em;
+    }
+
+    #lg2sm p {
+        width: 100%;
+    }
+
+    .support {
+        padding: 2em;
+    }
+
+    #collapse {
+        margin-top: -5em;
+        margin-bottom: -4em;
+    }
+
+    #dropdown {
+        margin-top: -3em;
+        margin-bottom: -2em;
+    }
+
+    #dropdown2 {
+        margin-bottom: -4em;
+    }
+
+    #successstories {
+        padding-left: 2em;
+    }
+
+    #learnmore div {
+        height: 70vh;
+    }
+
+    #learnmore h2 {
+        margin-top: -1.5em;
+    }
+}
+
+/* 350px screen sizes and below*/
+@media (max-width:350px) {
+    #whatsapplogo {
+        margin-bottom: 1em;
+    }
+
+    #biztransform p {
+        margin-top: -2em;
+        margin-bottom: -6em;
+    }
+
+    #productchoice2 img {
+        width: 15em;
+        height: 15em;
+    }
+
+    #lg2sm h6 {
+        font-size: 0.8em;
+    }
+
+    #lg2sm p {
+        font-size: 1.3em;
+    }
+
+    .support {
+        font-size: 0.8em;
+    }
+
+    #dropdown2 h1 {
+        font-size: 1.7em;
+    }
+
+    #accordionExample {
+        font-size: 1em;
+    }
+
+    #successstories {
+        margin-left: 0.4em;
+    }
+}
+
+/*300px screen sizes and below*/
+@media (max-width:300px) {
+    nav {
+        flex-direction: column;
+    }
+
+    #whatsapplogo {
+        padding-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    #biztransform button {
+        margin-top: -10em;
+        margin-left: -0.7em;
+    }
+
+    #biztransform {
+        height: 10%;
+    }
+
+    #productchoice2 img {
+        width: 13em;
+        margin-left: -1em;
+    }
+
+    #learnmore div {
+        height: 25em;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #learnmore h2 {
+        font-size: 2em;
+    }
+
+    #learnmore p {
+        font-size: 1em;
+    }
+
+    footer {
+        padding-left: 4em;
+    }
+}
+
+/* 250px screen sizes and below*/
+@media (max-width:250px) {
+    #biztransform h1 {
+        width: 2em;
+        font-size: 2em;
+        margin-left: -0.7em;
+    }
+
+    #biztransform p {
+        margin-top: 2em;
+        margin-left: -1em;
+        margin-bottom: 5em;
+
+    }
+
+    #biztransform button {
+        width: 10em;
+        margin-left: -1.5em;
+    }
+
+    #productchoice2 img {
+        width: 10em;
+    }
+
+    #learnmore div {
+        height: 30em;
+    }
+
+    #learnmore h2 {
+        margin-bottom: -1em;
+        margin-top: -7em;
+    }
+
+    #learnmore button {
+        margin-top: -5em;
+        margin-bottom: -7em;
+        width: 8em;
+    }
+
+
+
+}

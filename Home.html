@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://static.whatsapp.net/rsrc.php/v3/yz/r/ujTY9i_Jhs1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Business WhatsApp Clone">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="Make your calls and send messages at no cost">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site name" content="Business WhatsApp clone">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Home.css">
+
+    <title>WhatsApp Business</title>
+</head>
+
+<body>
+    <!--First, create a div with the meta logo-->
+    <div id="prenav">
+        <img src="../Images/logo meta.jpeg" id="metalogo">
+    </div>
+    <!-- I created a header with a nav bar-->
+    <header>
+        <nav>
+            <!-- Inside the navbar, i add the whatsapp logo-->
+            <img src="../Images/Whatsapp business image.svg" id="whatsapplogo">
+
+            <!-- I created a div containing a ul (all nav links are nested inside) and a submit button-->
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Partner</a></li>
+                </ul>
+                <button type="submit">Get Started</button>
+            </div>
+            <!-- I add the 3rd child of the header/nav element which is a div containing a button and a toggle button -->
+            <div id="lastnavdiv">
+                <!--i imported some icon from fontawesome-->
+                <button id="fontawesome"><i class="fa-solid fa-globe" id="globebtn"></i>EN<i
+                        class="fa-solid fa-angle-down" id="downbtn"></i><i class="fa-solid fa-bars"
+                        id="togglebtn"></i></button>
+            </div>
+        </nav>
+    </header>
+    <!-- End of header-->
+
+    <!--I add elements to the main element of the page-->
+    <main>
+        <!--I add section for the advert-->
+        <section id="advert">
+            <p>Conversations is coming June 6! Don’t miss this cornerstone business messaging event. <a
+                    href="#">Register for the
+                    livestream now.</a></p>
+        </section>
+
+
+        <!-- First main section-->
+        <section id="productchoice">
+            <!-- First section first div-->
+            <div class="tansformbiz" id="biztransform">
+                <h1>Transform Your Businesss</h1>
+                <p>Engage audiences, accelerate sales and drive better customer support outcomes on the platform with
+                    more than 2 billion users around the world.</p>
+                <button type="submit">Choose your product</button>
+            </div>
+            <!-- First section second div-->
+            <div class="transformbiz" id="productchoice2">
+                <img src="../Images/Phone and list image.jpg" alt="whatsapp messaging on phone and templates">
+
+            </div>
+        </section>
+        <!--End of first section-->
+
+
+        <!-- Second section-->
+        <section id="lg2sm">
+            <h6>WhatsApp Business for any company size</h6>
+            <p>WhatsApp Business products <span>support businesses from large to small,</span> see which product best
+                fits your needs.</p>
+        </section>
+
+
+        <!-- Third section-->
+        <section id="bizsupport">
+            <!--first div-->
+            <div class="support">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>WhatsApp Business platform</h3>
+                <p>For medium to large businesses communicating with customers at scale through programmatic access</p>
+                <span><i id="arrow2" class="fa-solid fa-circle-arrow-right"><a href="#" class="arrowtext">Get
+                            Started</a></i></span>
+
+            </div>
+            <!-- Second div-->
+            <div class="support">
+                <i class="fa-solid fa-house-laptop"></i>
+                <h3>WhatsApp Business App</h3>
+                <p>For small businesses who personally manage conversations with customers</p>
+                <span><i id="arrow1" class="fa-solid fa-circle-arrow-right"><a href="#" class="arrowtext">Get
+                            Started</a></i></span>
+            </div>
+        </section>
+
+
+        <!-- Fourth section -->
+        <section id="collapse">
+            <!-- First div contains an image element -->
+            <div id="dropdown" class="dropdown">
+                <img src="../Images/Tailor on call.jpg" alt="woman on phone">
+            </div>
+            <!-- Second div contains an accordion from bootstrap-->
+            <div id="dropdown2" class="dropdown">
+                <h1>Why Choose WhatsApp?</h1>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Meet customers where they already are
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                WhatsApp’s business solutions give you the power to connect with customers through
+                                messaging.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Drive business outcomes
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Use conversations to deliver personal experiences that accelerate the buyer journey.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Build long-lasting customer relationship
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Keep prospects and customers on the path to purchase and satisfied with your services
+                                with rich messaging experiences. Engage and retain your customers.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of colapse section-->
+
+
+        <!-- Fifth section-->
+        <section id="successstories">
+            <h4>Success Stories</h4>
+            <h1>From banking, e-commerce, and more, WhatsApp helps businesses drive results</h1>
+            <span><i id="arrow2" class="fa-solid fa-circle-arrow-right"><a href="#" class="arrowtext">Read success
+                        stories</a></i></span>
+        </section>
+
+        <!-- CAROUSEL-->
+        <section id="carousel">
+            <div class="carouseldiv">
+                <h1>Bank Mandiri</h1>
+                <p>Driving conversations for business growth to engage customers for installment payment schedules and
+                    enable credit card application verifications via WhatsApp Business Platform</p>
+                <img src="../Images/Bank Mandiri.jpg" alt="Smilling hajia">
+            </div>
+            <div class="carouseldiv">
+                <h1>Modanisa</h1>
+                <p>Quick, convienient customer experiences in five languages are in fine style with WhatsApp Business
+                    Platforn</p>
+                <img src="../Images/Modanisa.jpg" alt="Lady in jacket">
+            </div>
+            <div class="carouseldiv">
+                <h1>Omay Foods</h1>
+                <p>Creating personal customer relationships with whatsaApp for Business</p>
+                <img src="../Images/Omay Food.jpg" alt="Market man">
+            </div>
+            <div class="carouseldiv">
+                <h1>Players</h1>
+                <img src="../Images/Super eagles.jpeg" alt="Celebration">
+            </div>
+        </section>
+
+
+        <!-- Last section-->
+        <section id="learnmore">
+            <div>
+                <h2>Take the next step</h2>
+                <p>Start transforming your customer experience on WhatsApp Business Platform.</p>
+                <button>Learn more</button>
+            </div>
+        </section>
+
+
+        <!-- END OF MAIN ELEMENT-->
+    </main>
+
+    <footer>
+        <img src="../Images/Whatsapp business image.svg" id="footerlogo">
+
+        <ul>
+            <li><a href="#">Trust & Safety</a></li>
+            <li><a href="#">Become a Partner</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Data Policy</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
+        <span>2024 &copy; WhatsApp Business</span>
+
+    </footer>
+
+
+
+
+    <!-- I add the script from fontawesome to make our icon visible-->
+    <!-- Next, I add the script files from Bootstrap to connect our file to Bootstrap so anything from the bootstrap can work-->
+    <script src="https://kit.fontawesome.com/92ebc621ff.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
